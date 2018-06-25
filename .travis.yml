@@ -1,4 +1,11 @@
 language: bash
 
+sudo: required
+
+addons:
+  apt:
+    packages:
+      - lynx
+
 script:
     - bash countrycapitals.sh
