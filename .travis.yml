@@ -1,4 +1,4 @@
 language: bash
 
 script:
-    - bash country_capitals.sh
+    - bash countrycapitals.sh
