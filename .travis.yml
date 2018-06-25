@@ -6,6 +6,7 @@ addons:
   apt:
     packages:
       - lynx
+      - jq
 
 script:
     - bash countrycapitals.sh
